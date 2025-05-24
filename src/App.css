@@ -1,0 +1,11 @@
+.titulo{
+  color: rgb(175, 115, 231);
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 30px;
+  font-weight: 900;
+  text-decoration: none;
+}
+.titulo h1{
+  margin-top: 2rem;
+}

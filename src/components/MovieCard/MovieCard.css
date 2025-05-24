@@ -1,0 +1,36 @@
+.movie__card{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    transition: all .8s ease;
+    cursor: pointer;
+}
+.movie__card:hover{
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+img{
+    width: 100%;
+    height: auto;
+    display: block;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+.movie__title{
+    font-size: 1.6rem;
+    font-weight: 700;
+    padding: .5rem;
+    text-align: center;
+    color: black;
+}
+.movie__card.faded{
+    opacity: 0.5;
+}
+.movie__link{
+    text-decoration: none;
+}
