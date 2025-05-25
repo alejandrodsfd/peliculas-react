@@ -18,6 +18,9 @@ export function MovieDetails() {
         <div>
             {movie && (
                 <div className="movie__details">
+                    <title>{movie.title}</title>
+                    <meta name="description" content={movie.overview} />
+                    <meta name="keywords" content={movie.genres.map(genre => genre.name).join(", ")} />
                     <h2>{movie.title}</h2>
                     <div className="movie__img">
                         <img src={getMovieImg(movie.backdrop_path, 500)} alt={movie.title} />
